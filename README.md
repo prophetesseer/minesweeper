@@ -6,7 +6,7 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 # Requirements
 
 ## For Game
-
+⋅⋅* Computer Mouse
 ## For Source Code
 ### Download the JavaFX SDK:
 #### https://gluonhq.com/products/javafx/
@@ -14,17 +14,17 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 ### Add JavaFX library:
 
 #### File -> Project Structure -> Libraries -> add library 
-#### path->C:\javafx-sdk-11.0.2\lib (will depend)
+#### path->C:\javafx-sdk-15.0.1\lib (will depend)
 
 ### Add VM Options:
 #### Run-> Edit Configuration -> modify options -> add vm options
 #### --module-path %PATH_TO_JAVAFX_SDK/LIB% --add-modules javafx.controls,javafx.fxml 
 
 
-For the game you will need mouse: left mouse button opens the tile, right mouse button marks the tile with flag.
-
 ## For Release
-  To launch the release you should have latest JRE installed on your PC.
+
+### Java Runtime Environment (JRE)
+#### https://java.com/en/download/manual.jsp
 
 ## Image 1
 ![](screenshots/shot1.PNG)

@@ -40,3 +40,8 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 ![](screenshots/shot3.PNG)
 ## Game Won
 ![](screenshots/shot4.PNG)
+
+# References
+Recursive opening of nearby empty cells algorithm of is based on this YouTube video https://www.youtube.com/watch?v=JwcyxuKko_M
+ 
+

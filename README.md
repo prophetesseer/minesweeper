@@ -5,6 +5,7 @@ For the game you will need mouse: left mouse button opens the tile, right mouse 
 To launch the release you should have latest JRE installed on your PC.
 
 
+# Requirements
 
 ## Image 1
 ![](screenshots/shot1.PNG)

@@ -52,29 +52,29 @@ public class Minesweeper {
                 }
                 long mines = getNeighbours(tile).stream().filter(t -> t.hasMine).count();
                 if (mines > 0) tile.text.setText(String.valueOf(mines));
-                switch(mines){
-                    case 1L:
+                switch((int)mines){
+                    case 1:
                         tile.text.setFill(Color.BLUE);
                         break;
-                    case 2L:
+                    case 2:
                         tile.text.setFill(Color.GREEN);
                         break;
-                    case 3L:
+                    case 3:
                         tile.text.setFill(Color.RED);
                         break;
-                    case 4L:
+                    case 4:
                         tile.text.setFill(Color.PURPLE);
                         break;
-                    case 5L:
+                    case 5:
                         tile.text.setFill(Color.MAROON);
                         break;
-                    case 6L:
+                    case 6:
                         tile.text.setFill(Color.TURQUOISE);
                         break;
-                    case 7L:
+                    case 7:
                         tile.text.setFill(Color.BLACK);
                         break;
-                    case 8L:
+                    case 8:
                         tile.text.setFill(Color.GRAY);
                         break;
                 }

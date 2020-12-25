@@ -8,7 +8,7 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 ## For Game
 • Computer Mouse
 ## For Source Code
-### Download Java Develompent Kit (JDK)
+### Download Java Development Kit (JDK)
 #### https://www.oracle.com/java/technologies/javase-downloads.html
 
 ### Download the JavaFX SDK:
@@ -29,11 +29,13 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 ### Download Java Runtime Environment (JRE)
 #### https://java.com/en/download/manual.jsp
 
-## Image 1
+# Screenshots
+
+## Menu
 ![](screenshots/shot1.PNG)
-## Image 2
+## Game Beginning
 ![](screenshots/shot2.PNG)
-## Image 3
+## Game Ending
 ![](screenshots/shot3.PNG)
-## Image 4
+## Game Won
 ![](screenshots/shot4.PNG)

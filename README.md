@@ -33,12 +33,15 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 
 ## Menu
 ![](screenshots/shot1.PNG)
+ 
 In the menu you can choose the parameters of the game field: width, height and the amount of mines. All fields are required to fill.
 ## Game #1
 ![](screenshots/shot2.PNG)
+ 
 For the game you will need mouse. Left mouse button opens the tile, right mouse button marks the tile with red flag.
 ## Game #2
 ![](screenshots/shot3.PNG)
+ 
 To win the game, you must open all tiles without mines. You can mark the tiles with flag so you won't forget where the mines lie.
 ## Game Won
 ![](screenshots/shot4.PNG)

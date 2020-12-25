@@ -52,29 +52,31 @@ public class Minesweeper {
                 }
                 long mines = getNeighbours(tile).stream().filter(t -> t.hasMine).count();
                 if (mines > 0) tile.text.setText(String.valueOf(mines));
-                if (mines == 1) {
-                    tile.text.setFill(Color.BLUE);
-                }
-                else if (mines == 2) {
-                    tile.text.setFill(Color.GREEN);
-                }
-                else if (mines == 3) {
-                    tile.text.setFill(Color.RED);
-                }
-                else if (mines == 4) {
-                    tile.text.setFill(Color.PURPLE);
-                }
-                else if (mines == 5) {
-                    tile.text.setFill(Color.MAROON);
-                }
-                else if (mines == 6) {
-                    tile.text.setFill(Color.TURQUOISE);
-                }
-                else if (mines == 7) {
-                    tile.text.setFill(Color.BLACK);
-                }
-                else if (mines == 8) {
-                    tile.text.setFill(Color.GRAY);
+                switch(mines){
+                    case 1:
+                        tile.text.setFill(Color.BLUE);
+                        break;
+                    case 2:
+                        tile.text.setFill(Color.GREEN);
+                        break;
+                    case 3:
+                        tile.text.setFill(Color.RED);
+                        break;
+                    case 4:
+                        tile.text.setFill(Color.PURPLE);
+                        break;
+                    case 5:
+                        tile.text.setFill(Color.MAROON);
+                        break;
+                    case 6:
+                        tile.text.setFill(Color.TURQUOISE);
+                        break;
+                    case 7:
+                        tile.text.setFill(Color.BLACK);
+                        break;
+                    case 8:
+                        tile.text.setFill(Color.GRAY);
+                        break;
                 }
             }
         }

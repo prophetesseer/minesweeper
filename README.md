@@ -46,6 +46,12 @@ To win the game, you must open all tiles without mines. You can mark the tiles w
 ## Game Won
 ![](screenshots/shot4.PNG)
 
+# Implemented features
+• Customizable game field
+• Classic minesweeper algorithms (field generator, neighbour mines counter, recursive tiles revealer)
+• Win/loss conditions
+• Marking tiles with flag
+
 # References
 Recursive algorithm of counting and opening nearby cells based on this YouTube video: https://www.youtube.com/watch?v=JwcyxuKko_M
 

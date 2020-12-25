@@ -33,9 +33,10 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 
 ## Menu
 ![](screenshots/shot1.PNG)
-## Game Beginning
+
+## Game #1
 ![](screenshots/shot2.PNG)
-## Game Ending
+## Game #2
 ![](screenshots/shot3.PNG)
 ## Game Won
 ![](screenshots/shot4.PNG)
